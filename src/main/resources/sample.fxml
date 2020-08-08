@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="HomeWorksLevelTwoLessonFour.Controller">
+
+    <TextArea fx:id="mainTextArea" VBox.vgrow="ALWAYS" editable="false"/>
+    <TextField fx:id="textField" VBox.vgrow="ALWAYS" onAction="#btnOneClickAction"/>
+    <Button text="send message" onAction="#btnOneClickAction"/>
+</VBox>
